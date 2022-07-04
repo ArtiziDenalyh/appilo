@@ -15,15 +15,15 @@
         android:layout_weight="0.05"
         android:fontFamily="@font/poppins_semibold"
         android:textColor="@color/md_theme_light_primary"
-        android:text="¡Loogin!"
-        android:textSize="45dp" />
+        android:text="@string/loogin"
+        android:textSize="45sp" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:layout_weight="0.02"
-        android:hint="Correo"
+        android:hint="@string/correo"
         app:errorEnabled="true"
         app:startIconContentDescription="string">
 
@@ -31,7 +31,8 @@
             android:id="@+id/in_correo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textShortMessage" />
+            android:inputType="textShortMessage"
+            tools:ignore="TextContrastCheck" />
 
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
@@ -41,13 +42,14 @@
         app:endIconMode="password_toggle"
         app:startIconDrawable="@drawable/ic_outline_lock_24"
         android:layout_weight="0.001"
-        android:hint="Contraseña">
+        android:hint="@string/contrase_a">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/in_contrasenia1"
-            android:inputType="textPassword"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            tools:ignore="TextContrastCheck" />
 
     </com.google.android.material.textfield.TextInputLayout>
     <LinearLayout
@@ -70,8 +72,8 @@
         <com.google.android.material.textview.MaterialTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="¿No tienes una cuenta? "
-            android:textSize="15dp"
+            android:text="@string/no_tienes_una_cuenta"
+            android:textSize="15sp"
             />
 
         <com.google.android.material.textview.MaterialTextView
@@ -79,18 +81,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="irRegistro"
-            android:text="Registrate aquí."
+            android:text="@string/registrate_aqu"
             android:textColor="@color/md_theme_light_primary"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
     </LinearLayout>
+
     <Button
         android:id="@+id/btnIniciarSesion"
+        style="@style/Widget.Material3.Button.TonalButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:layout_marginBottom="150dp"
-        style="@style/Widget.Material3.Button.TonalButton"
-        android:text="INICIAR SESION"
-        android:layout_weight="0.002"/>
+        android:layout_weight="0.002"
+        android:backgroundTint="#E68484"
+        android:text="@string/iniciar_sesion" />
 </LinearLayout>
