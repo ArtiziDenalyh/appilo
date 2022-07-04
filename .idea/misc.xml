@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/GON161/Downloads/Pokemons_apis-master/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/GON161/Downloads/Pokemons_apis-master/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/GON161/Downloads/Pokemons_apis-master/app/src/main/res/layout/activity_poke_api.xml" value="0.22" />
+        <entry key="..\:/Users/GON161/Downloads/Pokemons_apis-master/app/src/main/res/layout/activity_registro.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/GON161/Downloads/Pokemons_apis-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.158" />
+        <entry key="..\:/Users/GON161/Downloads/Pokemons_apis-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.158" />
+        <entry key="..\:/Users/hp/Documents/1922IS_loginAndroid-main/app/src/main/res/layout/activity_login.xml" value="0.16621376811594202" />
+        <entry key="..\:/Users/hp/Documents/1922IS_loginAndroid-main/app/src/main/res/layout/activity_main.xml" value="0.16621376811594202" />
+        <entry key="..\:/Users/hp/Documents/1922IS_loginAndroid-main/app/src/main/res/layout/activity_poke_api.xml" value="0.25" />
+        <entry key="..\:/Users/hp/Documents/1922IS_loginAndroid-main/app/src/main/res/layout/activity_registro.xml" value="0.16621376811594202" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_poke_api.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_registro.xml" value="0.4036458333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

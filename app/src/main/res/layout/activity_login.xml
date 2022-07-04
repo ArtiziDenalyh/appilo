@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/md_theme_light_primary"
+        android:text="¡Loogin!"
+        android:textSize="45dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.02"
+        android:hint="Correo"
+        app:errorEnabled="true"
+        app:startIconContentDescription="string">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/in_correo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textShortMessage" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:endIconMode="password_toggle"
+        app:startIconDrawable="@drawable/ic_outline_lock_24"
+        android:layout_weight="0.001"
+        android:hint="Contraseña">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/in_contrasenia1"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout
+        android:id="@+id/layout_recuperar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.003"
+        android:gravity="right"
+        />
+    <LinearLayout
+        android:id="@+id/layout_texts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.02"
+        android:gravity="center"
+        >
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿No tienes una cuenta? "
+            android:textSize="15dp"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txt_irLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="irRegistro"
+            android:text="Registrate aquí."
+            android:textColor="@color/md_theme_light_primary"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnIniciarSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="150dp"
+        style="@style/Widget.Material3.Button.TonalButton"
+        android:text="INICIAR SESION"
+        android:layout_weight="0.002"/>
+</LinearLayout>
